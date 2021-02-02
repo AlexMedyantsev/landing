@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   mode: 'development',
-  entry: [ `./src/index.js`, "./public/scss/index.scss"],
+  entry: [`./src/index.js`, "./public/scss/index.scss"],
   output: {
     filename: `bundle.js`,
     path: path.join(__dirname, `public`),
@@ -14,7 +14,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, `public`),
     open: false,
-    port: 1337,
+    port: 1338,
     historyApiFallback: true,
   },
   watch: true,
@@ -41,14 +41,14 @@ module.exports = {
           'sass-loader' // compiles Sass to CSS, using Node Sass by default
         ]
       },
-        {
-          test: /\.svg$/,
-          use: {
-              loader: 'svg-url-loader',
-              options: {
-                  encoding: 'base64'
-              }
+      {
+        test: /\.svg$/,
+        use: {
+          loader: 'svg-url-loader',
+          options: {
+            encoding: 'base64'
           }
+        }
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
@@ -58,6 +58,10 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(woff|woff2|eot|ttf)$/, 
+        loader: 'url-loader?limit=100000'
+      }
     ],
   },
   devtool: `source-map`,

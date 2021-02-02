@@ -10,14 +10,7 @@ class App extends PureComponent {
     return (
       <Router history={history}>
         <Switch>
-          <Route exact path="/">
-          </Route>
-          <Route exact path="/pack">
-          </Route>
-          <Route exact path="/tasks">
-          </Route>
-          <Route exact path="/shop">
-          </Route>
+          <Route exact path="/" component={Main} />
         </Switch>
       </Router>
     )
@@ -26,16 +19,10 @@ class App extends PureComponent {
 
 const mapStateToProps = (state) => {
   return {
-    cards: getCards(state),
-    seasons: getSeasons(state),
-    dustCount: getDustCount(state),
-    tasks: getTasks(state),
-    packs: getPacks(state),
   }
 };
 
 const mapDispatchToProps = (dispatch) => ({
-  setActiveSeason: (season) => dispatch(ActionCreatorCondition.setActiveSeason(season)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);

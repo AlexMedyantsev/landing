@@ -1,208 +1,80 @@
 import moment from 'moment';
 
-export const CARDS_IN_PACK = 1;
-
-export const collectibles = [
+export const skills = [
   {
-    id: 0,
-    name: `Dummy`,
-    src: "../img/Giraf.jpeg",
-    isCollected: false,
-    rarity: `blue`,
-    monthNumber: 9,
-    year: 2020,
+    name: `HTML5`,
+    info: ``,
+    category: ``,
+    icon: `../img/html5-icon.svg`,
   },
   {
-    id: 1,
-    name: `Пингвин`,
-    src: `../img/Emperor_penguin.png`,
-    isCollected: false,
-    rarity: `blue`,
-    monthNumber: 9,
-    year: 2020,
+    name: `CSS3`,
+    info: ``,
+    category: ``,
+    icon: `../img/css3-icon.svg`,
   },
   {
-
-    id: 2,
-    name: `Бурый Медведь`,
-    src: `../img/buryj-medved.jpg`,
-    isCollected: false,
-    rarity: `purple`,
-    monthNumber: 9,
-    year: 2020,
+    name: `Flexbox`,
+    info: ``,
+    category: ``,
+    icon: `../img/flexbox-icon.svg`,
   },
   {
-
-    id: 3,
-    name: `Иволга`,
-    src: `../img/ivolga.jpg`,
-    isCollected: false,
-    rarity: `blue`,
-    monthNumber: 9,
-    year: 2020,
+    name: `ES6+`,
+    info: ``,
+    category: ``,
+    icon: `../img/es6-icon.svg`,
   },
   {
-
-    id: 4,
-    name: `Лиса`,
-    src: `../img/lisa.jpg`,
-    isCollected: false,
-    rarity: `blue`,
-    monthNumber: 9,
-    year: 2020,
+    name: `React + Redux`,
+    info: ``,
+    category: `js`,
+    icon: `../img/react-icon.jpg`,
   },
   {
-
-    id: 5,
-    name: `Слон`,
-    src: `../img/slon.jpg`,
-    isCollected: false,
-    rarity: `purple`,
-    isGoldBorder: true,
-    monthNumber: 9,
-    year: 2020,
+    name: `Sass`,
+    info: ``,
+    category: `css`,
+    icon: `../img/sass-icon.svg`,
   },
   {
-
-    id: 6,
-    name: `Воробей`,
-    src: `../img/vorobey.jpg`,
-    isCollected: true,
-    rarity: `blue`,
-    text: `Милая небольшая птичка. Перемещаются стайками по несколько особей. Благодаря небольшим размерам обладают необыкновенной верткостью и юркостью`,
-    monthNumber: 9,
-    year: 2020,
-  },
-  {
-
-    id: 7,
-    name: `Изумрудный лес`,
-    src: `../img/green-les.jpg`,
-    isCollected: false,
-    rarity: `orange`,
-    monthNumber: 9,
-    year: 2020,
-  },
-  {
-
-    id: 8,
-    name: `Лаванда`,
-    src: `../img/lavanda.jpg`,
-    isCollected: false,
-    rarity: `orange`,
-    monthNumber: 9,
-    year: 2020
-  },
-  {
-
-    id: 9,
-    name: `Полярное сияние`,
-    src: `../img/arctic_light.jpg`,
-    isCollected: false,
-    rarity: `orange`,
-    monthNumber: 9,
-    year: 2020
-  },
-  {
-    id: 10,
-    name: `Альбатрос`,
-    src: "../img/Albatros.jpg",
-    isCollected: false,
-    rarity: `purple`,
-    monthNumber: 9,
-    year: 2020
-  },
-  {
-    id: 11,
-    name: `Жираф`,
-    src: "../img/Giraf.jpeg",
-    isCollected: false,
-    rarity: `blue`,
-    monthNumber: 9,
-    year: 2020,
-  },
-
-  // November
-
-  {
-    id: 12,
-    name: `Альбатрос`,
-    src: "../img/sokol.jpg",
-    isCollected: false,
-    rarity: `purple`,
-    monthNumber: 10,
-    year: 2020
+    name: `BEM`,
+    info: ``,
+    category: `html`,
+    icon: `../img/bem-icon.svg`,
   },
 ];
 
-export const seasons = [
+export const projects = [
   {
-    monthName: `Октябрь`,
-    id: `october2020`,
-    monthNumber: 9,
-    year: 2020,
-    isActive: false,
-    icon: "../img/autumn.svg",
-    iconName: "Убаюкивающий листопад",
-    iconText: `Насладитесь осенним спокойствием и умиротворённостью`,
+    name: 'Glaccy Shop',
+    skillsUsed: ['HTML5', 'CSS3', 'Flexbox',],
+    info: `Сайт для продажи мороженого. Присутствуют декоративные элементы, дропдауны и сложная форма`,
+    pages: [{
+      link: 'https://alexmedyantsev.github.io/1123999-gllacy-26/#',
+      image: `../img/glaccy-preview-1.png`,
+    },
+    {
+      link: 'https://alexmedyantsev.github.io/1123999-gllacy-26/catalog.html',
+      image: '../img/glaccy-preview-2.png',
+    }]
   },
   {
-    monthName: `Ноябрь`,
-    id: `november2020`,
-    monthNumber: 10,
-    year: 2020,
-    isActive: false,
-    icon: `../img/november.svg`,
-    iconText: ``,
+    name: `Mobile App Pink`,
+    skillsUsed: ['Адаптивная верстка для трех категорий - mobile/tablet/desktop', 'Использована методология БЭМ', 'Препроцессор Sass', 'Верстка на Флексбоксах', 'Адаптивные изображения в зависимости от плотности пикселей'],
+    info: '',
+    pages: [{
+      link: 'https://alexmedyantsev.github.io/1123999-pink-18/index.html',
+      image: '../img/pink-preview.png',
+    }],
   },
   {
-    monthName: `Декабрь`,
-    id: `december2020`,
-    monthNumber: 11,
-    year: 2020,
-    isActive: false,
-    icon: "../img/december.svg",
-    iconText: ``,
-  }
-];
-
-export const tasks = [
-  {
-    name: 'Медитация',
-    reward: `cardPack`,
-    image: "../img/card-back-playing-koi.png",
-    amount: 1,
-    id: 0,
-  },
-  {
-    name: 'Тренировка реальности',
-    reward: `cardPack`,
-    image: "../img/card-back-playing-koi.png",
-    amount: 1,
-    id: 1,
-  },
-  {
-    name: 'Воздух осени',
-    reward: `cardPack`,
-    image: "../img/card-back-playing-koi.png",
-    amount: 1,
-    id: 1,
-  },
-];
-
-export const packs = [
-  {
-    name: `October 2020 cards pack`,
-    monthNumber: 9,
-    year: 2020,
-    image: "../img/card-back-playing-koi.png",
-    amount: 100,
-  },
-  {
-    name: `gold`,
-    monthNumber: moment().month(),
-    year: moment().year(),
-    image: "../img/card-back-golden.png",
-    amount: 2,
+    name: `Сайт для просмотра фильмов What to Watch`,
+    skillsUsed: ['Использован React + Redux', 'Маршрутизация на Router + History', 'Данные загружаются и отправляются на сервер', 'На каждый компонент написаны тесты и проверки проп тайпсов'],
+    info: '',
+    pages: [{
+      link: 'https://what-to-watch-74388.web.app/',
+      image: '../img/wtw-preview.png',
+    }],
   }
 ]
