@@ -76,7 +76,7 @@ export const projects = [
     skillsUsed: ['Used React + Redux', ' Routing done via Router + History', 'Gets and send data using server', 'Each component has test and prop types checks'],
     info: 'Optimised for Desktop Only',
     pages: [{
-      link: 'https://what-to-watch-74388.web.app/',
+      link: 'https://what-to-watch-74388.firebaseapp.com/',
       image: '../img/wtw-preview.png',
     }],
   }
