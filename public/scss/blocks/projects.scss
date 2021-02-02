@@ -1,0 +1,58 @@
+.projects {
+  background-color: #e3e2e2;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 40px;
+}
+
+.projects__header {
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  text-align: center;
+  color: $base-black;
+  font-size: 24px;
+  font-family: "SF-Pro-UI-Semibold", Arial, sans-serif;
+}
+
+.projects__item {
+  width: 88%;
+  background-color: white;
+  border-radius: 12px;
+  margin: 0 auto;
+  padding: 25px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+.projects__name {
+  color: $base-black;
+  font-size: 20px;
+  font-family: "Sf-Pro-UI-Medium", Arial;
+}
+
+.projects__link {
+  width: 200px;
+  height: 135px;
+  display: block;
+  border: 1px solid $base-black;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-size: cover;
+  background-position: center top;
+}
+
+.projects__info {
+  color: $base-black;
+  margin-top: 30px;
+  font-family: 'Sf-Pro-UI-Regular', Helvetica, Arial, sans-serif;
+  line-height: 20px;
+}
+
+.projects__highlights-item {
+  margin-top: 15px;
+  list-style-type: disc;
+  margin-left: 20px;
+  line-height: 18px;
+  font-family: 'Sf-Pro-UI-Thin',
+}

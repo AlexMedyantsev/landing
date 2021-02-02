@@ -1,14 +1,21 @@
 @import "./global/reset.scss";
+@import "./global/fonts.scss";
+@import "./global/variables.scss";
+
+@import "./blocks/header.scss";
+@import "./blocks/main-banner.scss";
+@import "./blocks/my-skills.scss";
+@import "./blocks/contacts.scss";
+@import "./blocks/projects.scss";
 
 #root {
   width: 100%;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Sf-Pro-UI-Medium';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-background-size: cover;

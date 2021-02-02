@@ -1,0 +1,9 @@
+.contacts {
+  display: flex;
+  flex-direction: row;
+}
+
+.contacts__item {
+  margin-left: 20px;
+  color: $base-white;
+}
