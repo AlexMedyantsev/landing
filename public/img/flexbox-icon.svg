@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="38" y="68" width="436" height="390" rx="27"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-7">
+            <rect id="Rectangle" fill="#8466CD" x="0" y="0" width="512" height="512"></rect>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#979797" x="38.5" y="68.5" width="435" height="389" rx="27"></rect>
+            <rect id="Rectangle" fill-opacity="0.727409309" fill="#D8D8D8" mask="url(#mask-2)" x="23" y="272" width="224" height="186"></rect>
+            <rect id="Rectangle" fill-opacity="0.876720935" fill="#D8D8D8" mask="url(#mask-2)" x="145" y="68" width="102" height="186"></rect>
+            <rect id="Rectangle" fill-opacity="0.873197115" fill="#D8D8D8" mask="url(#mask-2)" x="24" y="68" width="102" height="84"></rect>
+            <rect id="Rectangle" fill-opacity="0.8886309" fill="#D8D8D8" mask="url(#mask-2)" x="24" y="169" width="102" height="85"></rect>
+            <rect id="Rectangle" fill-opacity="0.537587413" fill="#D8D8D8" mask="url(#mask-2)" x="266" y="68" width="224" height="390"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="473px" height="461px" viewBox="0 0 473 461" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <rect id="Rectangle" fill="#FFCC33" x="0" y="0" width="473" height="461"></rect>
+            <polygon id="Path" fill="#FFCC33" fill-rule="nonzero" points="107.07 427.156 80 123.536 377.45 123.536 350.352 427.107 228.543 460.877"></polygon>
+            <g id="Group" transform="translate(150.000000, 161.000000)" fill-rule="nonzero">
+                <g transform="translate(86.000000, 0.000000)" fill="#FFFFFF" id="Path">
+                    <polygon points="0.93 88.97 0.93 126.207 46.783 136.207 42.461 184.5 0.93 195.711 0.93 234.453 77.27 213.295 77.828 207.004 87.486 108.97"></polygon>
+                    <polygon points="76.926 21.736 0.586 0.578 0.586 39.32 76.967 60.838"></polygon>
+                </g>
+                <polygon id="Path" fill="#EBEBEB" points="87.059 88.97 38.803 98.97 45.078 50.505 86.551 39.306 86.715 39.352 86.715 0.608 86.543 0.56 10.264 21.736 0.424 98.97 0.406 98.97 0.412 99.049 0.406 99.104 0.418 99.104 3.727 136.207 3.908 136.207 10.607 213.295 86.887 234.471 87.059 234.422 87.059 195.678 86.895 195.725 45.422 184.525 41.277 136.207 87.059 126.207"></polygon>
+            </g>
+            <g id="Group" transform="translate(182.000000, 66.000000)" fill="#131313" fill-rule="nonzero">
+                <polygon id="Path" points="108.42 15.547 83.732 15.547 109.406 43.406 109.406 56.666 56.523 56.666 56.523 41.141 82.193 41.141 56.523 13.281 56.523 0 108.42 0"></polygon>
+                <polygon id="Path" points="45.914 16.178 45.914 0 0.342 0 0.342 56.666 45.914 56.666 45.914 40.491 19.275 40.491 19.275 34.839 44.914 34.839 44.914 21.828 19.275 21.828 19.275 16.178"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
