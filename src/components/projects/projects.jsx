@@ -1,6 +1,7 @@
 import React, {PureComponent} from 'react';
 import {connect} from 'react-redux';
 import {projects} from '../../utils/const.js'
+import Project from "../project/project.jsx";
 
 class Projects extends PureComponent {
   constructor() {
@@ -10,23 +11,9 @@ class Projects extends PureComponent {
   render() {
     return (
       <ul class="projects">
-        <h2 className="projects__header">Мои проекты</h2>
+        <h2 className="projects__header">My Projects</h2>
         {projects.map(project => {
-          return <li className="projects__item">
-            <span className="projects__name">{project.name}</span>
-            {project.pages.map(page => {
-              return <a
-                className="projects__link"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={page.link}
-                style={{backgroundImage: "url(" + page.image + ")"}}></a>
-            })}
-            <ul className="projects__highlights-list">
-              {project.skillsUsed.map((skillUsed) => {return <li className="projects__highlights-item">{skillUsed}</li>})}
-            </ul>
-            <p class="projects__info">{project.info}</p>
-          </li>
+          return <Project project={project} />
         })}
       </ul>
     )

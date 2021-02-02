@@ -1,7 +1,7 @@
 import React, {PureComponent} from 'react';
 import {connect} from 'react-redux';
 
-class Shop extends PureComponent {
+class Skill extends PureComponent {
   constructor() {
     super();
   }
@@ -26,4 +26,4 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => ({
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(Shop);
+export default connect(mapStateToProps, mapDispatchToProps)(Skill);

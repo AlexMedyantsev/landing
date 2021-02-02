@@ -11,7 +11,7 @@ class MySkills extends PureComponent {
   render() {
     return (
       <article className="my-skills">
-        <span className="my-skills__header">Мои Навыки</span>
+        <span className="my-skills__header">My Skills</span>
         <ul className="my-skills__list">
           {skills.map(skill => {
             return <Skill skill={skill} />

@@ -9,7 +9,7 @@ class MainBanner extends PureComponent {
   render() {
     return (
       <div class="main-banner">
-       <div class="main-banner__name">Алексей Медянцев</div>
+       <div class="main-banner__name">Alexey Medyantsev</div>
        <div class="main-banner__my-photo"></div>
       </div>
     )
