@@ -1,13 +1,7 @@
-import React, {PureComponent} from 'react';
-import {connect} from 'react-redux';
+import React from 'react';
 
-class Skill extends PureComponent {
-  constructor() {
-    super();
-  }
-
-  render() {
-    const {skill} = this.props;
+export default function Skill(props) {
+    const {skill} = props;
 
     return (
        <li className="my-skills__item" key={skill.name}>
@@ -15,15 +9,4 @@ class Skill extends PureComponent {
           <div class="my-skills__icon" style={{backgroundImage: "url(" + skill.icon +")"}}></div>
         </li>
     )
-  }
 }
-
-const mapStateToProps = (state) => {
-  return {
-  }
-};
-
-const mapDispatchToProps = (dispatch) => ({
-})
-
-export default connect(mapStateToProps, mapDispatchToProps)(Skill);

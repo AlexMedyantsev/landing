@@ -1,14 +1,8 @@
-import React, {PureComponent} from 'react';
-import {connect} from 'react-redux';
+import React from 'react';
 import {projects} from '../../utils/const.js'
 import Project from "../project/project.jsx";
 
-class Projects extends PureComponent {
-  constructor() {
-    super();
-  }
-
-  render() {
+export default function Projects() {
     return (
       <ul class="projects">
         <h2 className="projects__header">My Projects</h2>
@@ -17,15 +11,4 @@ class Projects extends PureComponent {
         })}
       </ul>
     )
-  }
 }
-
-const mapStateToProps = (state) => {
-  return {
-  }
-};
-
-const mapDispatchToProps = (dispatch) => ({
-})
-
-export default connect(mapStateToProps, mapDispatchToProps)(Projects);
